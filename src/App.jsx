@@ -3,6 +3,14 @@ import './App.css'
 import React, { useState,useEffect } from 'react';
 import Gallery from './gallery';
 import ImageModal from './imageModal';
+import shimla from '../public/images/Shimla.jpg';
+import eid from '../public/images/Eid Image.jpg';
+import img3 from '../public/images/IMG-20240922-WA0005.jpg';
+import img4 from '../public/images/PXL_20240923_014435036.jpg';
+import img5 from '../public/images/PXL_20250204_161928218.jpg';
+import img6 from '../public/images/PXL_20230225_072519693.jpg';
+import img7 from '../public/images/IMG20250205133440.jpg';
+
 
 
 
@@ -11,15 +19,17 @@ function App() {
   const [shuffledImages, setShuffledImages] = useState([]);
 
 
-  const images = [
-    { id: 1, src: "/images/Shimla.jpg" },
-    { id: 2, src: '/images/Eid Image.jpg' },
-    { id: 3, src: '/images/IMG-20240922-WA0005.jpg' },
-    { id: 4, src: '/images/PXL_20240923_014435036.jpg' },
-    { id: 5, src: '/images/PXL_20250204_161928218.jpg' },
-    { id: 6, src: '/images/PXL_20230225_072519693.jpg'},
-    { id: 7, src: '/images/IMG20250205133440.jpg'}
-  ];
+ 
+
+const images = [
+  { id: 1, src: shimla },
+  { id: 2, src: eid },
+  { id: 3, src: img3 },
+  { id: 4, src: img4 },
+  { id: 5, src: img5 },
+  { id: 6, src: img6 },
+  { id: 7, src: img7 },
+];
   useEffect(() => {
     const shuffled = [...images];
     for (let i = shuffled.length - 1; i > 0; i--) {
