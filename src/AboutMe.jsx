@@ -74,12 +74,13 @@ const AboutMe = () => {
               language={language}
             />
             <TableRow
-              label="Education"
-              labelUrdu="تعلیم"
-              value="B.Tech in Electronics and Communication (2022)"
-              valueUrdu="بی ٹیک الیکٹرانکس اور کمیونیکیشن (۲۰۲۲)"
-              language={language}
-            />
+  label="Education"
+  labelUrdu="تعلیم"
+  value="B.Tech in Electronics and Communication (2022) from Kolkata, West Bengal"
+  valueUrdu="بی ٹیک الیکٹرانکس اور کمیونیکیشن (۲۰۲۲) کولکاتا، ویسٹ بنگال سے"
+  language={language}
+/>
+
             <TableRow
               label="Occupation"
               labelUrdu="پیشہ"
