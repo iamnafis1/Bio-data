@@ -1,6 +1,5 @@
 import { useState } from "react";
-import React from 'react';
-
+import React from "react";
 
 const AboutMe = () => {
   const [language, setLanguage] = useState("en");
@@ -13,7 +12,7 @@ const AboutMe = () => {
     <section className="my-12 px-4 max-w-4xl mx-auto text-gray-700 font-sans">
       {/* Bismillah */}
       <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center text-gray-800">
-      بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيْمِ
+        بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيْمِ
       </h2>
       {/* <h3 className="text-xl md:text-2xl text-center text-pink-600 font-semibold mb-6">
         {language === "en" ? "Nafish's Bio Data" : "نفیس کا بائیو ڈیٹا"}
@@ -50,16 +49,17 @@ const AboutMe = () => {
               label="Date of Birth"
               labelUrdu="تاریخ پیدائش"
               value="05-May-1998"
-             valueUrdu="۰۵ مئی ۱۹۹۸"
+              valueUrdu="۰۵ مئی ۱۹۹۸"
               language={language}
             />
             <TableRow
               label="Height"
               labelUrdu="قد"
-              value="5 feet 8 inch"
-              valueUrdu="5 فٹ 8 انچ"
+              value="5 feet 7 inch"
+              valueUrdu="5 فٹ 7 انچ"
               language={language}
             />
+
             <TableRow
               label="Religion"
               labelUrdu="مذہب"
@@ -74,12 +74,12 @@ const AboutMe = () => {
               language={language}
             />
             <TableRow
-  label="Education"
-  labelUrdu="تعلیم"
-  value="B.Tech in Electronics and Communication (2022) from Kolkata, West Bengal"
-  valueUrdu="بی ٹیک الیکٹرانکس اور کمیونیکیشن (۲۰۲۲) کولکاتا، ویسٹ بنگال سے"
-  language={language}
-/>
+              label="Education"
+              labelUrdu="تعلیم"
+              value="B.Tech in Electronics and Communication (2022) from Kolkata, West Bengal"
+              valueUrdu="بی ٹیک الیکٹرانکس اور کمیونیکیشن (۲۰۲۲) کولکاتا، ویسٹ بنگال سے"
+              language={language}
+            />
 
             <TableRow
               label="Occupation"
@@ -122,8 +122,8 @@ const AboutMe = () => {
               valueUrdu="۶ بھائی (سب شادی شدہ، سوائے ایک کے جو مجھ سے چھوٹا ہے)، ۴ بہنیں (سب شادی شدہ)"
               language={language}
             />
-              {/* Bride's Requirements Section - Separate Note */}
-              <tr className="bg-pink-100 text-pink-700">
+            {/* Bride's Requirements Section - Separate Note */}
+            <tr className="bg-pink-100 text-pink-700">
               <td
                 colSpan="2"
                 className="px-4 py-3 text-lg font-semibold text-center"
@@ -136,11 +136,9 @@ const AboutMe = () => {
                 {language === "en" ? "Requirements" : "ضروریات"}
               </td>
               <td className="px-4 py-2 text-gray-800">
-                {language === "en" ? (
-                  "Looking for a well-mannered and educated woman who abides by Islamic laws, strongly follows the Hijab (Pardah), stays away from shirk and bidah, is familiar with Islamic teachings, and practices Islam by offering prayers. She must be kind-hearted."
-                ) : (
-                  "ایک خوش اخلاق اور تعلیم یافتہ خاتون کی تلاش ہے جو اسلامی قوانین کی پابند ہو، حجاب (پردہ) کا سختی سے اتباع کرے، شرک اور بدعت سے بچی رہے، اسلامی تعلیمات سے واقف ہو، اور نماز پڑھ کر اسلام کی پیروی کرتی ہو۔ وہ دل سے مہربان ہونی چاہیے۔"
-                )}
+                {language === "en"
+                  ? "Looking for a well-mannered and educated woman who abides by Islamic laws, strongly follows the Hijab (Pardah), stays away from shirk and bidah, is familiar with Islamic teachings, and practices Islam by offering prayers. She must be kind-hearted."
+                  : "ایک خوش اخلاق اور تعلیم یافتہ خاتون کی تلاش ہے جو اسلامی قوانین کی پابند ہو، حجاب (پردہ) کا سختی سے اتباع کرے، شرک اور بدعت سے بچی رہے، اسلامی تعلیمات سے واقف ہو، اور نماز پڑھ کر اسلام کی پیروی کرتی ہو۔ وہ دل سے مہربان ہونی چاہیے۔"}
               </td>
             </tr>
           </tbody>
