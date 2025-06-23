@@ -67,6 +67,27 @@ const AboutMe = () => {
               valueUrdu="اسلام"
               language={language}
             />
+              <TableRow
+              label="Blood Group"
+              labelUrdu="بلڈ گروپ"
+              value="O+"
+              valueUrdu="O+"
+              language={language}
+            />
+            <TableRow
+              label="Permanent Address"
+              labelUrdu="مستقل پتہ"
+              value="Howrah, Shibpur, West Bengal"
+              valueUrdu="ہاوڑا، شیبپور، ویسٹ بنگال"
+              language={language}
+            />
+            <TableRow
+              label="Current Address"
+              labelUrdu="موجودہ پتہ"
+              value="Tolichowki, Hyderabad"
+              valueUrdu="ٹولی چوکی، حیدرآباد"
+              language={language}
+            />
 
             <TableSection
               titleEn="Education & Profession"
