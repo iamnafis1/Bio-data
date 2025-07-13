@@ -45,13 +45,21 @@ const AboutMe = () => {
               valueUrdu="محمد نفیش عالم"
               language={language}
             />
-            <TableRow
+            {/* <TableRow
               label="Date of Birth"
               labelUrdu="تاریخ پیدائش"
               value="05-May-1998"
               valueUrdu="۰۵ مئی ۱۹۹۸"
               language={language}
+            /> */}
+            <TableRow
+              label="Age"
+              labelUrdu="عمر"
+              value="26 years"
+              valueUrdu="۲۶ سال"
+              language={language}
             />
+
             <TableRow
               label="Height"
               labelUrdu="قد"
@@ -67,7 +75,7 @@ const AboutMe = () => {
               valueUrdu="اسلام"
               language={language}
             />
-              <TableRow
+            <TableRow
               label="Blood Group"
               labelUrdu="بلڈ گروپ"
               value="O+"
